@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: .5s ease;
+}
+
+body {
+    background-color: #e1e1e1;
+}
+
+.approot {
+    margin: 5pc auto;
+    width: 25%;
+    padding: 1pc;
+    background-color: #ffffff7e;
+    border-radius: 8px;
+
+}
+
+.appheader {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 .5pc;
+    margin: .5pc 0 ;
+}
+
+.appMain {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 25pc;
+    padding: 2pc;
+    border-radius: .5pc;
+    background-color: #ffffff;
+    transition: .5s ease;
+}
+
+.appSearcher {
+    margin: .5pc 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 .5pc;
+    gap: .5pc;
+}
+
+#sendbtn {
+    background: transparent;
+
+}
+
+#sendbtn:hover {
+    background-color: #eee;
+}
+
+#rootSearch {
+    padding: .5pc;
+    border-radius: 8px;
+    outline: none;
+    width: 90%;
+}
+
+#rootSearch:focus {
+    box-shadow: 0 0 .666pc .266pc cyan;
+}
+
+
+/* This message box does not currently support messages of all sizes*/
+.msgbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 70px;
+    border: .1pc solid #eee;
+    background-color: blue;
+    color: white;
+    border-radius: 1pc;
+    float: right;
+    padding: .5pc;
+    text-align: center;
+
+}
+
+@media only screen and (max-width:996px) {
+    .approot {
+        width: 50%;
+    }
+}
