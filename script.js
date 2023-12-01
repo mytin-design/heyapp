@@ -21,13 +21,15 @@ sendbtn.addEventListener('click', function() {
     }
 
     }
-    
-});
 
+    
 //To delete msgbox - by removing the child msgbox
 msgbox.addEventListener('click', function() {
     appMain.removeChild(msgbox);
 })
+    
+});
+
 
 
 
